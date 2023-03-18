@@ -7,9 +7,11 @@
 
 int main(void)
 {
-	for(char ch = 'a'; ch < 'z', ch++)
+	char ch;
+
+	for(ch = 'a'; ch < 'z'; ch++)
 	{
-		if(ch = 'q' || ch = 'e')
+		if(ch == 'q' || ch == 'e')
 		{
 			continue;
 		}
