@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry Point
+ * DESCRIPTION: This program prints a value in a specific address
+ * Return: Success (0)
+ */
+
 int main(void)
 {
 	int n;
