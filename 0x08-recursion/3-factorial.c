@@ -15,6 +15,10 @@ int factorial(int n)
 	{
 		result = n * factorial(n - 1);
 	}
+	else if (n < 0)
+	{
+		result = -1;
+	}
 	else
 	{
 		result = 1;
