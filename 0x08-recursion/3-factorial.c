@@ -7,10 +7,13 @@
  * Failed: -1
  */
 
-int factorial (int n)
+int factorial(int n)
 {
+	int result = 0;
+
 	if (n > 0)
 	{
-		return n * factorial(n - 1);
+		result = n * factorial(n - 1);
 	}
+	return (result);
 }
