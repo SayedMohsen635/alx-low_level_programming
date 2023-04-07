@@ -1,4 +1,6 @@
 #include "main.h"
+int check(char *s, int start, int end, int mod);
+int last_index(char *s);
 
 /**
  * last_index - returns the last index of the string even if null
@@ -6,7 +8,6 @@
  * Return: integer number
  */
 
-int check(char *s, int start, int end, int mod);
 int last_index(char *s)
 {
 	int n = 0;
@@ -27,6 +28,7 @@ int last_index(char *s)
 int is_palindrome(char *s)
 {
 	int end = last_index(s);
+
 	return (check(s, 0, end - 1, end % 2));
 }
 
