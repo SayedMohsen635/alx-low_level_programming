@@ -11,10 +11,6 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%s", "abcdefghijklmnopqrstuvwxyz");
-		if (i != 9)
-		{
-			printf("%c", '\n');
-		}
+		printf("%s", "abcdefghijklmnopqrstuvwxyz\n");
 	}
 }
