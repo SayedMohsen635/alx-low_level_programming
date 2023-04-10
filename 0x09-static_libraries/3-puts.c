@@ -1,1 +1,6 @@
-void _puts(char *s);
+#include "main.h"
+
+void _puts(char *s)
+{
+	_putchar(*s);
+}

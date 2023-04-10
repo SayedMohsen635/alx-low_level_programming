@@ -1,1 +1,3 @@
-int _isalpha(int c);
+#include "main.h"
+
+int _isalpha(int c) {}
