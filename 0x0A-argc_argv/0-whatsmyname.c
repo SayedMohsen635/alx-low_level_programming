@@ -3,7 +3,7 @@
 /**
  * main - this file prints the program name followed by a new line
  * @argc: integer number
- * @argv: pointer to char
+ * @argv: array of strings
  * Return: 0
  */
 
