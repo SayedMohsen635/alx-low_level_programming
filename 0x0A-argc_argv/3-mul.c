@@ -11,6 +11,7 @@
 int main(int argc, char **argv)
 {
 	int result;
+
 	if (argc == 1)
 	{
 		printf("%s\n", "Error");
