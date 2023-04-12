@@ -3,7 +3,7 @@
 
 /**
  * free_grid - The function frees 2D array
- * @**grid: 2D array
+ * @grid: 2D array
  * @height: integer
  * Return: void
 */
