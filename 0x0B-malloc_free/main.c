@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include "100-argstostr.c"
 
 /**
  * main - check the code for ALX School students.
