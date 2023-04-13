@@ -20,7 +20,7 @@ int wordCount(char *s)
 		else if (i == 0)
 			n++;
 	}
-	n++
+	n++;
 	return (n);
 }
 
