@@ -3,7 +3,7 @@
 /**
  * malloc_checked - The function allocates memory
  * @b: integer
- * Return: Void
+ * Return: Pointer to an array or NULL
 */
 
 void *malloc_checked(unsigned int b)
@@ -12,5 +12,6 @@ void *malloc_checked(unsigned int b)
 
 	if (b == 0)
 		exit(98);
+
 	return (location);
 }
