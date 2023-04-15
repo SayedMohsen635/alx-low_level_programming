@@ -8,8 +8,10 @@
 
 void *malloc_checked(unsigned int b)
 {
-	if (b != NULL)
-		char *location = malloc(b);
+	char *location;
+
+	if (b != 0)
+		location = malloc(b);
 	else
 		exit(98);
 }
