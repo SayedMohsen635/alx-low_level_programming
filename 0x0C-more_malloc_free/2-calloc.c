@@ -2,6 +2,8 @@
 
 /**
  * _calloc - The function allocates memory for an array, initiallized to zero
+ * @nmemb: int
+ * @size: int
  * Return: 1 or 0
 */
 
