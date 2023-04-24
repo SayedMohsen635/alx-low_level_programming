@@ -2,9 +2,8 @@
 
 /**
  * get_op_func - selects the correct function
- * @int: int
- * @int: int
  * @s: pointer to char
+ * Return: int
  */
 
 int (*get_op_func(char *s))(int, int)
