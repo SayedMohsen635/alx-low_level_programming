@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit - clears the value of the specified bit     
+ * clear_bit - clears the value of the specified bit
  * @n: pointer to unsigned long int
  * @index: index of the bit
  * Return: 1 or -1
