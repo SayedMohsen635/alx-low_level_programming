@@ -32,7 +32,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (!filename)
 		return (-1)
-	fileVal = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSB | S_IWUSR);
+	fileVal = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 	if (fileVal == -1)
 		return (-1);
 	if (length)
