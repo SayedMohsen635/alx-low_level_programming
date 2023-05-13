@@ -14,10 +14,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char buffer[BUFF_SIZE * 8];
 
 	if (!filename || !letters)
-		exit(1);
+		return (0);
 	fileVal = open(filename, O_RDONLY);
 	if (fileVal == -1)
-		exit(1);
+		return (0);
 	data = read(fileVal, &buffer[0], letters);
 	data = write(1, &buffer[0], data);
 	close(fileVal);
