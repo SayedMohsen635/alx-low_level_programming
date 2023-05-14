@@ -1,5 +1,7 @@
 #include "main.h"
 
+#define permissions (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH)
+
 /**
  * main - This program that copies the content of a file to another file
  * @argc: int
@@ -18,7 +20,7 @@ int main(int argc, char **argv)
 	file_from = open(argv[1], O_RDONLY);
 	if (file_from == -1)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s", argv[1]), exit(98);
-	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, permissions);
 	if (file_to == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s", argv[2]), exit(99);
 	/* Write Logic */
